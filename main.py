@@ -15,4 +15,12 @@ print("3. feladat:")
 feladatok.szovegbenKeres("A kedvenc fagyim a vanília", 6)
 print("")
 
+print("4. feladat:")
+db:int=feladatok.nevekSzama()
+print(f"A felhasználó {db} nevet adott meg.")
+print("")
 
+print("5. feladat:")
+tip1=feladatok.felhasznTipp()
+tip2=feladatok.gepTipp()
+feladatok.nyertesKiir(tip1, tip2)
